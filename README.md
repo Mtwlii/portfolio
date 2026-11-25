@@ -1,16 +1,86 @@
-# Metwaly Mohamed | Portfolio
+# Metwaly Mohamed — Portfolio
 
-Animated portfolio built with React, TypeScript, Vite and Framer Motion.
-Scroll progress bar, cursor glow, staggered reveals, 3D tilt cards.
+Personal portfolio built with **React 19**, **TypeScript**, **Vite** and **Framer Motion**: animated intro, scroll progress bar, cursor glow, staggered reveals and 3D tilt cards.
+
+🔗 **Live:** [portfolio-rose-three-32.vercel.app](https://portfolio-rose-three-32.vercel.app)
+
+---
+
+## 📸 Screenshots
+
+### Hero
+![Hero](docs/screenshots/hero.png)
+
+### Selected work
+![Selected work](docs/screenshots/work.png)
+
+### About
+![About](docs/screenshots/about.png)
+
+### Contact
+![Contact](docs/screenshots/contact.png)
+
+---
+
+## ✨ Features
+
+- Animated intro sequence and staggered scroll reveals (Framer Motion)
+- Scroll progress bar and cursor glow
+- 3D tilt cards for the selected projects
+- Project links to live demos and source code
+- Fully responsive, clean editorial design
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|---|---|
+| Framework | React 19 + Vite |
+| Language | TypeScript |
+| Animation | Framer Motion |
+| Deployment | Vercel |
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+git clone https://github.com/Mtwlii/portfolio.git
+cd portfolio
 npm install
-npm run dev
+npm run dev      # http://localhost:5173
 ```
 
+```bash
+npm run build    # production build
+npm run preview  # preview the build locally
+```
 
-## Roadmap (edit freely)
-- [ ] Add screenshots and the live link to this README
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── features/        # hero, intro, projects, about, contact, navigation
+│   └── <feature>/   # components, data, hooks, types per feature
+└── shared/          # shared components and animation utilities
+```
+
+---
+
+## 🗺️ Roadmap (edit freely)
+
 - [ ] Case studies for FreshCart, SocialHub, NGL App and EVO Cafe
 - [ ] Downloadable CV and contact form
+- [ ] Blog section
 - [ ] SEO and Lighthouse pass
+
+---
+
+## 👤 Author
+
+**Metwaly Mohamed**
+- GitHub: [@Mtwlii](https://github.com/Mtwlii)
+- LinkedIn: [mtwlii](https://www.linkedin.com/in/mtwlii/)
