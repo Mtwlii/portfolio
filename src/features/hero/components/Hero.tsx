@@ -8,7 +8,7 @@ export function Hero({ loaded }: { loaded: boolean }) {
   return (
     <motion.section className="hero" style={{ y: heroY }}>
       <motion.p className="small" initial="hidden" animate={loaded ? 'show' : 'hidden'} variants={rise}>
-        Cairo, Egypt. Available for remote work.
+        Cairo, Egypt. Open to remote or on-site work anywhere.
       </motion.p>
       <h1>
         {headlineLines.map((l, i) => (
@@ -30,3 +30,4 @@ export function Hero({ loaded }: { loaded: boolean }) {
     </motion.section>
   )
 }
+
