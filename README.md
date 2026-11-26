@@ -28,7 +28,7 @@ Personal portfolio built with **React 19**, **TypeScript**, **Vite** and **Frame
 - Scroll progress bar and cursor glow
 - 3D tilt cards for the selected projects
 - Project links to live demos and source code
-- Fully responsive, clean editorial design
+- Responsive editorial layout with keyboard focus states and reduced-motion support
 
 ---
 
@@ -70,12 +70,13 @@ src/
 
 ---
 
-## 🗺️ Roadmap (edit freely)
+## 🗺️ Roadmap
 
-- [ ] Case studies for FreshCart, SocialHub, NGL App and EVO Cafe
-- [ ] Downloadable CV and contact form
-- [ ] Blog section
-- [ ] SEO and Lighthouse pass
+- [ ] Add focused case studies for FreshCart, SocialHub, NGL App and EVO Cafe
+- [ ] Add a downloadable CV and a working contact form
+- [ ] Add a short technical blog section
+- [ ] Run accessibility, responsive-layout, and Lighthouse checks before release
+- [ ] Keep typography, spacing, color, and motion choices consistent as new sections are added
 
 ---
 
